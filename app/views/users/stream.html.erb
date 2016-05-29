@@ -1,0 +1,4 @@
+<%= javascript_include_tag "//static.opentok.com/webrtc/v2.2/js/TB.min.js" %>
+<h1>Your stream</h1>
+<div id="publisher"></div>
+Link to your stream: <%= link_to watch_url(@stream.user.id), watch_url(@stream.user.id) %>
