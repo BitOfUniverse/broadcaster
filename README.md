@@ -9,7 +9,7 @@ opentok_api_secret: your_api_secret
 
 ## Deploy to heroku
 - Setup app locally
-- $ figaro heroku:set -e production
+- $ heroku config:set opentok_api_key=your_api_key opentok_api_secret=your_api_secret
 - $ heroku create
 - $ git push heroku master
 - $ heroku open
